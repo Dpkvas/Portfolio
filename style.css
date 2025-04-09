@@ -45,13 +45,9 @@ img {
 
 /* Hero Section */
 .hero {
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 100px 40px 40px;
   text-align: center;
-  padding: 0 20px;
+  background-color: #fff;
 }
 .hero h1 {
   font-size: 3rem;
