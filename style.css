@@ -112,3 +112,37 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
+.skills-overview {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 60px 40px;
+  background-color: #fdfdfd;
+  gap: 40px;
+}
+
+.skill-box {
+  flex: 1;
+  min-width: 280px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.skill-box img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  filter: hue-rotate(-20deg) saturate(130%); /* reddish-pink tone */
+}
+
+.skill-box h3 {
+  font-size: 1.25rem;
+  color: #132562;
+  margin-bottom: 15px;
+}
+
+.skill-box p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
