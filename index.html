@@ -1,25 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
   <header>
-    <h1>Welcome to Deepak's Portfolio</h1>
-    <p>Explore my projects below!</p>
+  <nav>
+  <div class="logo">Your Name</div>
+  <ul>
+  <li><a href="#about">About</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#contact">Contact</a></li>
+  </ul>
+  </nav>
   </header>
 
-  <main id="projects-container">
-    <!-- Project buttons will be dynamically added here -->
-  </main>
+  <section id="about">
+  <div class="container">
+  <img src="profile.jpg" alt="Your Profile Picture">
+  <div>
+  <h2>About Me</h2>
+  <p>A brief introduction about yourself and your background.</p>
+  </div>
+  </div>
+  </section>
+
+  <section id="projects">
+  <div class="container">
+  <h2>Projects</h2>
+  <div class="project-grid">
+  <div class="project-item">
+  <img src="project1.jpg" alt="Project 1">
+  <h3>Project 1 Title</h3>
+  <p>Short description of the project.</p>
+  <a href="#">View Project</a>
+  </div>
+  <div class="project-item">
+  <img src="project2.jpg" alt="Project 2">
+  <h3>Project 2 Title</h3>
+  <p>Short description of the project.</p>
+  <a href="#">View Project</a>
+  </div>
+  </div>
+  </div>
+  </section>
+
+  <section id="contact">
+  <div class="container">
+  <h2>Contact Me</h2>
+  <p>Email: your.email@example.com</p>
+  <p>LinkedIn: linkedin.com/in/yourprofile</p>
+  </div>
+  </section>
 
   <footer>
-    <p>© 2025 Deepak. All rights reserved.</p>
+  <p>&copy; 2025 Your Name</p>
   </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+ </body>
+ </html>
