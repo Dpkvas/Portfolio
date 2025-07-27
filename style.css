@@ -23,6 +23,13 @@ img {
   border-radius: 8px;
 }
 
+.projectimg {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px; /* optional rounded corners */
+}
+
 /* Navbar */
 .navbar {
   display: flex;
