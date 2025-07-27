@@ -24,10 +24,10 @@ img {
 }
 
 .projectimg {
-  width: 400px;
-  height: 250px;
+  width: 100%;
+  aspect-ratio: 16 / 10; /* forces same shape for all */
   object-fit: cover;
-  border-radius: 10px; /* optional rounded corners */
+  border-radius: 10px;
 }
 
 /* Navbar */
